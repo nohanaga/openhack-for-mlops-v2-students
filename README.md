@@ -1,4 +1,4 @@
-# OpenHack for MLOps v2 (for Coach)
+# OpenHack for MLOps v2 (for Students)
 
 ## Introduction
 
