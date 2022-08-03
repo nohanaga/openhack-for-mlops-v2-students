@@ -37,10 +37,10 @@ Azure Machine Learning のパイプラインの複数のステップを組み合
 ## ヒント
  - [機械学習パイプライン HelloWorld](https://docs.microsoft.com/azure/machine-learning/how-to-train-cli#hello-pipelines)
  - [CLI (v2) パイプライン ジョブ サンプル集](https://docs.microsoft.com/azure/machine-learning/reference-yaml-job-pipeline#examples)
-
+ - [パイプライン ジョブのステップ間で入力と出力をバインドする](https://docs.microsoft.com/azure/machine-learning/reference-yaml-core-syntax#binding-inputs-and-outputs-between-steps-in-a-pipeline-job)
+ 
 ## 学習リソース
  - [Azure Machine Learning パイプラインとは](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines)
- - [Azure Machine Learning CLI でコンポーネントを使用して機械学習パイプラインを作成して実行する](https://docs.microsoft.com/azure/machine-learning/how-to-create-component-pipelines-cli)
  - [リファレンス: CLI (v2) パイプライン ジョブの YAML スキーマ](https://docs.microsoft.com/azure/machine-learning/reference-yaml-job-pipeline)
  
 

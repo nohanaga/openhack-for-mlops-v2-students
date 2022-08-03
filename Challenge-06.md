@@ -22,9 +22,10 @@
 
 ## Hack
 ### 1. Github Actions を使用したデプロイパイプライン構築
-1. Azure CLI を使用してサービスプリンシパルを作成し、クレデンシャルをシークレットとして GitHub に保存します。
+1. Azure CLI を使用してリソースグループに対して共同作成者ロールを割り当てたサービスプリンシパルを作成し、クレデンシャルをシークレットとして GitHub に保存します。
 1. GitHub Actions で デプロイパイプラインの Workflow を作成します。必要なファイルは [Challenge 3](./Challenge-03.md) で作成したファイルを使います。
-1. 作成した Workflow のトリガーは `on: repository_dispatch` [イベント](https://docs.github.com/rest/repos/repos#create-a-repository-dispatch-event) を使用して、外部から起動できるようにします。
+1. Workflow でデプロイコマンドを実行するステップを追加します。Workflow のサンプルは[こちら](./Solutions/06_deploy.yml)。
+1. 作成した Workflow のトリガーは `on: repository_dispatch` [イベント](https://docs.github.com/actions/using-workflows/events-that-trigger-workflows#release) を使用して、外部から起動できるようにします。
 
 ### 2. Logic Apps によるモデル登録トリガーの作成
 1. [Azure Portal](https://ms.portal.azure.com/) を開き Azure Machine Learning ワークスペースに移動し、Logic Apps 連携によるイベント受信トリガーを作成します。
