@@ -44,7 +44,7 @@
 1. [こちらの手順](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#app-registration-app-objects-and-service-principals)にしたがって、アプリケーションを Azure AD テナントに登録し、Azure サブスクリプションでそのアプリケーションにロールを割り当てるために、十分なアクセス許可を持っているか確認します。
 
 ### 4. Azure LogicApps および Azure Event Grid リソースを作成できること
-Azure サブスクリプションで 一度も LogicApps/Event Grid を使用したことがない場合は、リソース プロバイダーを登録する必要があります。て[こちらの手順](https://docs.microsoft.com/azure/azure-resource-manager/management/resource-providers-and-types)にしたがって 以下のリソースを `Registered` （登録済み）にしてください。
+Azure サブスクリプションで 一度も LogicApps/Event Grid を使用したことがない場合は、リソース プロバイダーを登録する必要があります。[こちらの手順](https://docs.microsoft.com/azure/azure-resource-manager/management/resource-providers-and-types)にしたがって 以下のリソースを `Registered` （登録済み）にしてください。
 
   - `Microsoft.EventGrid`
   - `Microsoft.Web`
@@ -53,7 +53,7 @@ Azure サブスクリプションで 一度も LogicApps/Event Grid を使用し
 本演習ではパイプラインの構築に Github Actions を使用しますので、事前に Github アカウントをご用意ください。
 
 ### 6. Azure DevOps の事前申請（オプション）
-本演習では、パイプラインの構築に Github Actions をメインで使用しますが、もし組織の要件でパイプラインを Azure DevOps を用いて行いたい場合、以下のような制約がありますのでご注意ください。
+本演習では、パイプラインの構築に Github Actions をメインで使用しますが、もし組織の要件でパイプラインを Azure DevOps を用いて作成したい場合、以下のような制約がありますのでご注意ください。
 
 注意: 無料アカウントもしくは Azure Pass で Azure DevOps を使用している場合、パイプライン実行時に [Requiest Form](https://docs.microsoft.com/azure/devops/release-notes/2021/sprint-184-update) があり申請に 2,3 日かかります。すでにパイプラインが実行可能な方のみ選択してください。
 
