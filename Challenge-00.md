@@ -36,15 +36,14 @@ Azure Machine Learning ワークスペースと各アセットとリソースに
 - CI/CD ツールとして、**Github Actions** をメインで使用します。事前に **Github アカウントをご用意ください**。
 - 提供された無償の Azure Pass がある場合は、そのまま [Azure Portal](https://portal.azure.com/) にログインできます。認証時の多要素認証は本 Hack ではスキップできます。
 - 本コンテンツは **Azure ML CLI v2** 向けに作成されていますが、CLI v2 実装の進捗によって SDK を用いている部分もあります。これは実装され次第反映される予定です。
-
 - **OpenHack 運営事務局向け事前確認手順解説は[こちら](./Solutions/Solution-Challenge-00-1.md)**
 
 ## Hack
 以下の Azure Machine Learning アセットとリソースを作成します。Azure Machine Learning スタジオ UI から作成しても、Azure Machine Learning CLI v2 から作成してもかまいません。
 1. [Azure Machine Learning ワークスペース](https://ml.azure.com/)の作成。これは機械学習モデルの実験、学習、デプロイに使用する、クラウド上の基礎的なリソースです。
 1. **コンピューティング インスタンス**の作成（汎用 Standard_D2_v2 推奨）
-1. Azure Machine Learning スタジオのホームから **Notebooks** の「今すぐ開始」をクリックし、コーチが提供する Git リポジトリ `https://github.com/nohanaga/OpenHackforMLOpsv2_Coach.git` **(仮)** をワークスペースにクローンします。
-1. ノートブックのマイ ファイル ウィンドウで ↻ をクリックしてビューを更新し、新しい /Users/\<your-user-name\>/OpenHackforMLOpsv2_Coach **(仮)** フォルダーが作成されていることを確認します。
+1. Azure Machine Learning スタジオのホームから **Notebooks** の「今すぐ開始」をクリックし、コーチが提供する Git リポジトリ `https://github.com/nohanaga/openhack-for-mlops-v2-students.git` をワークスペースにクローンします。
+1. ノートブックのマイ ファイル ウィンドウで ↻ をクリックしてビューを更新し、新しい /Users/\<your-user-name\>/openhack-for-mlops-v2-students フォルダーが作成されていることを確認します。
 1. Notebooks フォルダ内の `exercise00_1_login_azure.ipynb` を開き、作成した**コンピューティング インスタンス**を割り当て、カーネルを「Python 3.8 - AzureML」にセットしセルを上から実行して CLI コマンドで Azure にログインできることを確認し、Azure ML CLI v2 をインストールします。
 
     **注意:** ノートブック上部に *"いずれかの Azure SDK を使用するには、コンピューティングに対して認証される必要があります。認証されるには、認証ボタンを使用してください。"* と表示された場合は認証ボタンを押してアカウントの認証を行います。
