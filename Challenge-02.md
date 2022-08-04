@@ -38,6 +38,7 @@
 <br>
 
 ## ヒント
+- [Azure Machine Learning ジョブを作成する](https://docs.microsoft.com/learn/modules/use-azure-machine-learn-job-for-automation/4-create-pipelines?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.build-first-machine-operations-workflow)
 - トレーニング スクリプトにはコマンドライン引数を渡すことができます。指定方法は[こちら](https://docs.microsoft.com/azure/machine-learning/reference-yaml-core-syntax#parameterizing-the-command-with-the-inputs-and-outputs-contexts-of-a-job)を参照。
  - [CLI (v2) を使用した Azure Machine Learning 環境の管理](https://docs.microsoft.com/azure/machine-learning/how-to-manage-environments-v2)
  - [CLI (v2) を使用してモデルをトレーニングする](https://docs.microsoft.com/azure/machine-learning/how-to-train-cli#train-a-model-with-a-custom-script)
