@@ -52,6 +52,12 @@ Azure サブスクリプションで 一度も LogicApps/Event Grid を使用し
 ### 5. GitHub アカウントの作成
 本演習ではパイプラインの構築に Github Actions を使用しますので、事前に Github アカウントをご用意ください。
 
+1. [Github](https://github.com/) にアクセスします。
+1. トップページの「Email Address」欄に使用するメールアドレスを入力し「Sign up for GitHub」ボタンをクリックします。
+1. 「password」「username」「お知らせ受け取り可否」を順に入力します。
+1. 「Verify」チェックを行った後「Create account」ボタンをクリックします。
+1. メールアドレス宛に確認メールが飛ぶのでメール中のリンクをクリックするか、8 桁の認証コードを入力して登録完了です。
+
 ### 6. Azure DevOps の事前申請（オプション）
 本演習では、パイプラインの構築に Github Actions をメインで使用しますが、もし組織の要件でパイプラインを Azure DevOps を用いて作成したい場合、以下のような制約がありますのでご注意ください。
 
