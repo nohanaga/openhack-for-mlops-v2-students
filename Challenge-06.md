@@ -28,8 +28,9 @@
 1. 作成した Workflow のトリガーは `on: repository_dispatch` [イベント](https://docs.github.com/actions/using-workflows/events-that-trigger-workflows#repository_dispatch) を使用して、外部から起動できるようにします。
 
 ### 2. Logic Apps によるモデル登録トリガーの作成
+1. [こちら](./Solutions/Solution-Challenge-00-1.md#4-azure-logicapps-および-azure-event-grid-リソースを作成できること)を参照してサブスクリプションが Azure LogicApps および Azure Event Grid リソースを作成できることを確認します。
 1. [Azure Portal](https://ms.portal.azure.com/) を開き Azure Machine Learning ワークスペースに移動し、Logic Apps 連携によるイベント受信トリガーを作成します。
-1. Azure Machine Learning から送信される `ModelRegistered` イベントのデータは JSON 形式なので次のステップは「**JSON の解析**」アクションを作成します。
+1. Azure Machine Learning から送信される `ModelRegistered` イベントのデータは JSON 形式なので次のステップは「**JSON の解析**」アクションを作成します。JSON スキーマのサンプルは[こちら](./Solutions/06_schema.json)。
 1. `ModelRegistered` イベントの JSON データから登録されたモデル名とモデルバージョン番号を取得し、それらの値をパイプラインエンドポイントのパラメータとして指定して「**リポジトリ ディスパッチ イベントを作成する**」アクションを作成します。
 1. Azure Machine Learning でモデルを登録して動作を検証します。
 
