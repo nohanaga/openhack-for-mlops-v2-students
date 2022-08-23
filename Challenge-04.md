@@ -20,7 +20,7 @@ Azure Machine Learning のパイプラインの複数のステップを組み合
 1. 新しいノートブックを作成します。
 1. パイプライン定義 YAML `04_training_pipeline_job.yml` を作成します。
     1. `train.py` を使用してトレーニングを実行する 1 つ目のパイプライン ステップを定義します。
-    1. `register.py` を作成してモデルを登録する 2 つ目のパイプライン ステップを定義します。
+    1. `register.py` を作成してモデルを登録する 2 つ目のパイプライン ステップを定義します。`register.py` のサンプルは[こちら](./Solutions/04_register.py)。
 1. パイプライン ジョブを送信します。
 1. [AML スタジオ上](https://ml.azure.com/)から、パイプラインを発行します。
 1. [AML スタジオ上](https://ml.azure.com/)から、発行されたパイプラインを実行します。
