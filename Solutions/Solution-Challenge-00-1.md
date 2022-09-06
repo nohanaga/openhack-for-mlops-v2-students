@@ -11,6 +11,7 @@
 1. Azure LogicApps および Azure Event Grid リソースを作成できること
 1. GitHub アカウントの作成
 1. Azure DevOps の事前申請（オプション）
+1. Visual Studio Code の準備（オプション）
 
 ## 手順
 ### 1. Azure Machine Learning リソースを作成できること
@@ -63,6 +64,17 @@ Azure サブスクリプションで 一度も LogicApps/Event Grid を使用し
 
 注意: 無料アカウントもしくは Azure Pass で Azure DevOps を使用している場合、パイプライン実行時に [Requiest Form](https://docs.microsoft.com/azure/devops/release-notes/2021/sprint-184-update) があり申請に 2,3 日かかります。すでにパイプラインが実行可能な方のみ選択してください。
 
+### 7. Visual Studio Code の準備（オプション）
+すでに Visual Studio Code をお使いの方は [Visual Studio Code Azure Machine Learning 拡張機能](https://docs.microsoft.com/azure/machine-learning/how-to-setup-vs-code) をインストールすることで効率的にチャレンジを遂行できます。[こちら](https://docs.microsoft.com/azure/machine-learning/how-to-setup-vs-code)の手順から以下を完了してください。
+
+1. 拡張機能をインストールする
+1. Azure アカウントにサインインする
+1. 既定のワークスペースを選択する
+1. リモート コンピューティング インスタンスを構成する
+1. コンピューティング インスタンスをリモート ノートブック サーバーとして構成する
+
+
+注意: 本手順は、Visual Studio Code がすでにインストールされている方のみを対象としています。Visual Studio Code 本体のインストールは扱いません。
 
 
 [< Back](../Challenge-00.md)

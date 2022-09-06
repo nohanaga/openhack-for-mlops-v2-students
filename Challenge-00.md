@@ -34,12 +34,13 @@ Azure Machine Learning ワークスペースと各アセットとリソースに
   - Azure Logic Apps
   - Azure Event Grid
 - CI/CD ツールとして、**Github Actions** をメインで使用します。事前に **Github アカウントをご用意ください**。
+- すでに Visual Studio Code をお使いの方は [Visual Studio Code Azure Machine Learning 拡張機能](https://docs.microsoft.com/azure/machine-learning/how-to-setup-vs-code) をインストールすることで効率的にチャレンジを遂行できます。ローカル PC からリモートのコンピューティング インスタンスにアタッチすることで、ローカル環境を変更せずにコーディングが可能になり、さらに言語サポートやオートコンプリート機能が利用できます。
 - 提供された無償の Azure Pass がある場合は、そのまま [Azure Portal](https://portal.azure.com/) にログインできます。認証時の多要素認証は本 Hack ではスキップできます。
 - 本コンテンツは **Azure ML CLI v2** 向けに作成されていますが、CLI v2 実装の進捗によって SDK を用いている部分もあります。これは実装され次第反映される予定です。
 - **OpenHack 運営事務局向け事前確認手順解説は[こちら](./Solutions/Solution-Challenge-00-1.md)**
 
 ## Hack
-以下の Azure Machine Learning アセットとリソースを作成します。Azure Machine Learning スタジオ UI から作成しても、Azure Machine Learning CLI v2 から作成してもかまいません。
+以下の Azure Machine Learning アセットとリソースを作成します。Azure Machine Learning スタジオ UI から作成しても、CLI v2 や [VS Code](https://docs.microsoft.com/azure/machine-learning/how-to-set-up-vs-code-remote?tabs=extension) から作成してもかまいません。
 1. [Azure Machine Learning ワークスペース](https://ml.azure.com/)の作成。これは機械学習モデルの実験、学習、デプロイに使用する、クラウド上の基礎的なリソースです。
 1. **コンピューティング インスタンス**の作成（汎用 Standard_D2_v2 推奨）
 1. Azure Machine Learning スタジオのホームから **Notebooks** の「今すぐ開始」をクリックし、コーチが提供する Git リポジトリ `https://github.com/nohanaga/openhack-for-mlops-v2-students.git` をワークスペースにクローンします。
@@ -68,6 +69,7 @@ Azure Machine Learning ワークスペースと各アセットとリソースに
 - [ワークスペースで Jupyter Notebook を実行する](https://docs.microsoft.com/azure/machine-learning/how-to-run-jupyter-notebooks)
  - [Azure Machine Learning ワークスペースを作成して探索する](https://microsoftlearning.github.io/DP-100JA-Designing-and-Implementing-a-Data-Science-Solution-on-Azure/Instructions/01-create-a-workspace.html)
 - [データ資産を作成する](https://docs.microsoft.com/azure/machine-learning/how-to-create-register-data-assets?tabs=CLI)
+- [Visual Studio Code で Azure Machine Learning コンピューティング インスタンスに接続する](https://docs.microsoft.com/azure/machine-learning/how-to-set-up-vs-code-remote?tabs=extension)
 
 ## 学習リソース
 - [Azure Machine Learning のしくみ: リソースとアセット (v2)](https://docs.microsoft.com/azure/machine-learning/concept-azure-machine-learning-v2?tabs=cli)
