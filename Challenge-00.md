@@ -76,4 +76,4 @@ Azure Machine Learning ワークスペースと各アセットとリソースに
 - [Azure Machine Learning ワークスペースとは](https://docs.microsoft.com/azure/machine-learning/concept-workspace)
 - [Azure Machine Learning コンピューティング インスタンスとは](https://docs.microsoft.com/azure/machine-learning/concept-compute-instance)
 - [Azure Machine Learning CLI と Python SDK v2 の概要](https://docs.microsoft.com/azure/machine-learning/concept-v2)
-
+- [Visual Studio Code 拡張機能を使用して Azure Machine Learning リソースを管理する](https://docs.microsoft.com/azure/machine-learning/how-to-manage-resources-vscode)
