@@ -30,7 +30,7 @@
 <br>
 
 ## ヒント
- - [機械学習パイプラインをトリガーする](https://docs.microsoft.com/azure/machine-learning/how-to-trigger-published-pipeline)
+ - [機械学習パイプラインをトリガーする](https://github.com/MicrosoftDocs/azure-docs.ja-jp/blob/master/articles/machine-learning/how-to-trigger-published-pipeline.md)
  
 ## 学習リソース
  - [最適なツール選択のための Azure Machine Learning 意思決定ガイド](https://docs.microsoft.com/azure/architecture/example-scenario/mlops/aml-decision-tree)
