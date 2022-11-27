@@ -36,7 +36,7 @@ Azure Machine Learning ワークスペースと各アセットとリソースに
 - CI/CD ツールとして、**Github Actions** をメインで使用します。事前に **Github アカウントをご用意ください**。
 - すでに Visual Studio Code をお使いの方は [Visual Studio Code Azure Machine Learning 拡張機能](https://docs.microsoft.com/azure/machine-learning/how-to-setup-vs-code) をインストールすることで効率的にチャレンジを遂行できます。ローカル PC からリモートのコンピューティング インスタンスにアタッチすることで、ローカル環境を変更せずにコーディングが可能になり、さらに言語サポートやオートコンプリート機能が利用できます。
 - 提供された無償の Azure Pass がある場合は、そのまま [Azure Portal](https://portal.azure.com/) にログインできます。認証時の多要素認証は本 Hack ではスキップできます。
-- 本コンテンツは **Azure ML CLI v2** 向けに作成されていますが、CLI v2 実装の進捗によって SDK を用いている部分もあります。これは実装され次第反映される予定です。
+- 本コンテンツは **Azure ML CLI v2** 向けに作成されています。
 - **OpenHack 運営事務局向け事前確認手順解説は[こちら](./Solutions/Solution-Challenge-00-1.md)**
 
 ## Hack
