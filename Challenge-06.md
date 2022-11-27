@@ -14,7 +14,7 @@
 
 本演習では、新しい成果物（モデル）が利用可能になるたびに、デプロイパイプラインがトリガーされる仕組みを実装します。Azure Machine Learning モデルレジストリに新しく登録されるモデルは、リリース成果物として扱われます。Azure Machine Learning と Event Grid との連携によって、以下の図のように Azure Machine Learning ワークスペース内で発生した[イベント](https://docs.microsoft.com/azure/machine-learning/how-to-use-event-grid#event-types-for-azure-machine-learning)を外部イベントハンドラに送信することができます。
 
-<img src="./images/009.png" width="500">
+<img src="./images/009.png" width="700">
 
 <br>
 

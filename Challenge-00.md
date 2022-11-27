@@ -41,7 +41,7 @@ Azure Machine Learning ワークスペースと各アセットとリソースに
 
 ## Hack
 以下の Azure Machine Learning アセットとリソースを作成します。Azure Machine Learning スタジオ UI から作成しても、CLI v2 や [VS Code](https://docs.microsoft.com/azure/machine-learning/how-to-set-up-vs-code-remote?tabs=extension) から作成してもかまいません。
-1. [Azure Machine Learning ワークスペース](https://ml.azure.com/)の作成。これは機械学習モデルの実験、学習、デプロイに使用する、クラウド上の基礎的なリソースです。
+1. [Azure Machine Learning ワークスペース](https://ms.portal.azure.com/)の作成。これは機械学習モデルの実験、学習、デプロイに使用する、クラウド上の基礎的なリソースです。
 1. **コンピューティング インスタンス**の作成（汎用 Standard_D2_v2 推奨）
 1. Azure Machine Learning スタジオのホームから **Notebooks** の「今すぐ開始」をクリックし、コーチが提供する Git リポジトリ `https://github.com/nohanaga/openhack-for-mlops-v2-students.git` をワークスペースにクローンします。
 1. ノートブックのマイ ファイル ウィンドウで ↻ をクリックしてビューを更新し、新しい /Users/\<your-user-name\>/openhack-for-mlops-v2-students フォルダーが作成されていることを確認します。
